@@ -1,0 +1,15 @@
+<svg id="visual" viewBox="0 0 960 540" width="960" height="540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0" stop-color="#ff9913" />
+            <stop offset="0.14285714285714285" stop-color="#ea8115" />
+            <stop offset="0.2857142857142857" stop-color="#d36a16" />
+            <stop offset="0.42857142857142855" stop-color="#bc5415" />
+            <stop offset="0.5714285714285714" stop-color="#a43f13" />
+            <stop offset="0.7142857142857143" stop-color="#8c2b10" />
+            <stop offset="0.8571428571428571" stop-color="#73160b" />
+            <stop offset="1" stop-color="#5b0000" />
+        </linearGradient>
+    </defs>
+    <path d="M0 94L32 89.3C64 84.7 128 75.3 192 77C256 78.7 320 91.3 384 99.2C448 107 512 110 576 108.5C640 107 704 101 768 94.5C832 88 896 81 928 77.5L960 74L960 0L928 0C896 0 832 0 768 0C704 0 640 0 576 0C512 0 448 0 384 0C320 0 256 0 192 0C128 0 64 0 32 0L0 0Z" fill="url(#grad1)" stroke-linecap="round" stroke-linejoin="miter"></path>
+</svg>
