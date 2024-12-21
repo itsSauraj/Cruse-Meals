@@ -20,7 +20,8 @@ export default function Home() {
           </div>
           <p className="text-white text-xl text-center lg:text-left">Taste and share food from all over the world.</p>
           <div className="flex  flex-col lg:flex-row gap-4 items-center text-2xl">
-            <Link className="flex-grow text-gradient-to-r from-primary to-yellow-500" href={'/'}>Join the community</Link>
+            <Link className="flex-grow text-gradient-to-r from-primary to-yellow-500" 
+              href={'/meals/share'}>Share a Recipe</Link>
             <Link className="
               py-2 px-4 rounded-md
               transition duration-600 ease-in
