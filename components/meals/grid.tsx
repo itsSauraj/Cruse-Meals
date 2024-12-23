@@ -1,13 +1,10 @@
 import React from 'react';
 import MealItem from './meal'
+import { getMeals } from '@/lib/database/utils';
 
-import { Meal } from './meal'
 
-interface MealProps {
-    meals: Meal[];
-}
-
-const Grid: React.FC<MealProps> = ({ meals }) => {
+const Grid  = async () => {
+    const meals = await getMeals();
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {meals.map((meal) => (
